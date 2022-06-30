@@ -84,7 +84,7 @@ const GetAccountDetails = () => {
   return (
     <>
     <NavBar/>
-    <div>
+    <div class="btn-container">
       <Button
         variant="contained"
         onClick={() => {
