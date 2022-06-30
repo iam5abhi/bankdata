@@ -20,7 +20,7 @@ const NavBar=()=>{
                 <ul>
                     <li><NavLink to='/createAccount' style={({ isActive }) => isActive ? activeStyle : undefined }>Create Account</NavLink></li>
                     <li><NavLink to='/userlist' style={({ isActive }) => isActive ? activeStyle : undefined }>Home</NavLink></li>
-                    <li><NavLink to='/search/account' style={({ isActive }) => isActive ? activeStyle : undefined }>Seach Account Deatils</NavLink></li>
+                    <li><NavLink to='/search/account' style={({ isActive }) => isActive ? activeStyle : undefined }>Search</NavLink></li>
                 
                 </ul>
                 </div>
