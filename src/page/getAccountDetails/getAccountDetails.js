@@ -221,8 +221,8 @@ const GetAccountDetails = () => {
                               <td style={{ border: "1px solid black" }}>{row.Date}</td>
                               <td style={{ border: "1px solid black" }}>{row.ChequeNumber}</td>
                               <td style={{ border: "1px solid black" }}>{row.Description}</td>
+                             <td style={{ border: "1px solid black" }}>{row.WithdrawalAmount}</td>
                               <td style={{ border: "1px solid black" }}>{row.DepositAmount}</td>
-                              <td style={{ border: "1px solid black" }}>{row.WithdrawalAmoun}</td>
                               <td style={{ border: "1px solid black" }}>{row.Blance}</td>
                               <td style={{ border: "1px solid black" }}>4287</td>
                          
