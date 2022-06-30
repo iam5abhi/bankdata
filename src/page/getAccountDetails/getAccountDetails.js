@@ -104,7 +104,6 @@ const GetAccountDetails = () => {
       <Button
         variant="contained"
         color="success"
-        style={{ "margin-left": "1300px" }}
         onClick={handlePrint}
       >
         Print
