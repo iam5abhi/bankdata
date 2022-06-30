@@ -84,6 +84,7 @@ const GetAccountDetails = () => {
   return (
     <>
     <NavBar/>
+    <div>
       <Button
         variant="contained"
         onClick={() => {
@@ -116,6 +117,7 @@ const GetAccountDetails = () => {
       >
         Edit
       </Button>&nbsp;&nbsp;
+   </div>
       <br />
       <br />
       <div ref={componentRef}>
