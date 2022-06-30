@@ -26,7 +26,7 @@ const Withdrawal =()=>{
           axios.patch(`${configUrl.ApiUrl}/withdrawal/?AccountNumber=${id*1}`,withdrawalamonut)
           .then((res)=>{
               toast.success('desposit Sucessfully')
-              navigate(`/statement/${id}`)
+              navigate("/userlist")
           })
           .catch((err)=>{
                toast.error(err.message)
