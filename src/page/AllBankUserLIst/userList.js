@@ -81,6 +81,10 @@ export default function UserList() {
 
   const copyAccountdetail = (accountnumber) => {
     axios.get(`${configUrl.ApiUrl}/copy/accountnumber/alldata/${accountnumber}`)
+    .then((res)=>{
+         setLoading(true)
+        setLoading(false)
+    })
     
   };
 
