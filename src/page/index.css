@@ -1,0 +1,10 @@
+.tableRow{
+    background-color: gray;
+    font-weight: bold;
+  
+}
+
+.tablecell{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
