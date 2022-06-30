@@ -5,3 +5,9 @@
 .col-6.border.border-dark {
     height: 600px;
   }
+
+
+.btn-container {
+    margin-top: 50px;
+    margin-left: 240px;
+ }
