@@ -37,9 +37,19 @@ const EditBankDeatils =()=>{
                 console.warn(updatedBankData);
                 axios
                 .patch(`${configUrl.ApiUrl}/edit/accountnumber/${id}`, updatedBankData)
-                .then((res) => {
+                .then((res) => { 
+                  console.log(res.data.account);
                     toast.success("account added sucssfully");
-                    navigate("/userlist");
+                    setupdatedBankData({
+                      name: res.data.account.name,
+                      Address: res.data.account.Address,
+                      AccountNumber: res.data.account.AccountNumber,
+                      IFSC: res.data.account.IFSC,
+                      Branch_MICR_Code: res.data.account.Branch_MICR_Code,
+                      Branch_GSTIN: res.data.account.Branch_MICR_Code,
+                      Customer_Number: res.data.account.Customer_Number,
+                      ProductType:res.data.account.ProductType
+                  })
                 })
                 .catch((err) => {
                     toast.error("not added  fails");
