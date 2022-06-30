@@ -41,7 +41,7 @@ const submitHandler =async(event)=>{
      axios.patch(`${configUrl.ApiUrl}/deposit/?AccountNumber=${id*1}`,dipositAmount)
      .then((res)=>{
          toast.success('desposit Sucessfully')
-           navigate("/statement")
+           navigate("/userlist")
      })
      .catch((err)=>{
          toast.error(err.message)
