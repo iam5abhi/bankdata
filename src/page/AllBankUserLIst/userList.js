@@ -81,13 +81,6 @@ export default function UserList() {
 
   const copyAccountdetail = (accountnumber) => {
     axios.get(`${configUrl.ApiUrl}/copy/accountnumber/alldata/${accountnumber}`)
-    .then(res=>{
-        toast.success('data copy sucessfull')
-         window.location.reload()
-    })
-    .catch(err => {
-      toast.error(err.message)
-    })
     
   };
 
