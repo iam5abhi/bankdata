@@ -89,33 +89,33 @@ const GetAccountDetails = () => {
         onClick={() => {
           DespositAmount(bankdata.AccountNumber);
         }}
-      >&nbsp;
+      >
         Deposit amt.
-      </Button>
+      </Button>&nbsp;
       <Button
         variant="contained"
         onClick={() => {
           withdrawalamount(bankdata.AccountNumber);
         }}
-      >&nbsp;
+      >
         Withdrawal amt.
-      </Button>
+      </Button>&nbsp;
 
       <Button
         variant="contained"
         color="success"
         onClick={handlePrint}
-      >&nbsp;
+      >
         Print
-      </Button>
+      </Button>&nbsp;
       <Button
         variant="contained"
         onClick={() => {
           EditAccout(bankdata.AccountNumber);
         }}
-      >&nbsp;
+      >
         Edit
-      </Button>
+      </Button>&nbsp;
       <br />
       <br />
       <div ref={componentRef}>
