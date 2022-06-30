@@ -91,7 +91,7 @@ const GetAccountDetails = () => {
         }}
       >
         Deposit amt.
-      </Button>&nbsp;
+      </Button>&nbsp;&nbsp;
       <Button
         variant="contained"
         onClick={() => {
@@ -99,7 +99,7 @@ const GetAccountDetails = () => {
         }}
       >
         Withdrawal amt.
-      </Button>&nbsp;
+      </Button>&nbsp;&nbsp;
 
       <Button
         variant="contained"
@@ -107,7 +107,7 @@ const GetAccountDetails = () => {
         onClick={handlePrint}
       >
         Print
-      </Button>&nbsp;
+      </Button>&nbsp;&nbsp;&nbsp;
       <Button
         variant="contained"
         onClick={() => {
@@ -115,7 +115,7 @@ const GetAccountDetails = () => {
         }}
       >
         Edit
-      </Button>&nbsp;
+      </Button>&nbsp;&nbsp;
       <br />
       <br />
       <div ref={componentRef}>
