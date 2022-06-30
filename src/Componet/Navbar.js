@@ -18,8 +18,8 @@ const NavBar=()=>{
             </div>
             <div>
                 <ul>
+                     <li><NavLink to='/userlist' style={({ isActive }) => isActive ? activeStyle : undefined }>Home</NavLink></li>
                     <li><NavLink to='/createAccount' style={({ isActive }) => isActive ? activeStyle : undefined }>Create Account</NavLink></li>
-                    <li><NavLink to='/userlist' style={({ isActive }) => isActive ? activeStyle : undefined }>Home</NavLink></li>
                     <li><NavLink to='/search/account' style={({ isActive }) => isActive ? activeStyle : undefined }>Search</NavLink></li>
                 
                 </ul>
