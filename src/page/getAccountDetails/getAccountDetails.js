@@ -104,13 +104,6 @@ const GetAccountDetails = () => {
 
       <Button
         variant="contained"
-        color="success"
-        onClick={handlePrint}
-      >
-        Print
-      </Button>&nbsp;&nbsp;&nbsp;
-      <Button
-        variant="contained"
         onClick={() => {
           EditAccout(bankdata.AccountNumber);
         }}
